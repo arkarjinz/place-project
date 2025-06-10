@@ -7,9 +7,9 @@ import Cards from "../components/Cards.jsx";
 
 function PlaceList() {
     return (
-        <div className="">
-            <Heading title="John Doe"/>
-            <Button text="Hello John Doe" startIcon={<CakeIcon/>} endIcon={<CableIcon/>} customStyles="bg-amber-100 text-xl "/>
+        <div className="p-20">
+            <Heading title="All Historical Places"/>
+            {/*<Button text="Hello John Doe" startIcon={<CakeIcon/>} endIcon={<CableIcon/>} customStyles="bg-amber-100 text-xl "/>*/}
 
                 <Cards/>
 
